@@ -1,0 +1,89 @@
+# robbikmansurov.github.io
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Rob Bikmansurov
+locale: ru_RU
+url: https://robbikmansurov.github.io
+# url: http://localhost:4000
+
+# Jekill config
+permalink: /:categories/:year/:month/:day/:title.html
+#permalink: /blog/:year/:month/:day/:title/
+#permalink:   /:categories/:title/
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-sitemap
+plugins:
+  - jekyll-feed
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+owner:
+  name: Rob Bikmansurov
+  avatar: Бикмансуров.png
+  bio: "Mostly writing about software development and cycling."
+  bio: "I enjoy playing basketball, I'm CIO in miidle bank, a
+ developer, I like open source software and to try something new" 
+  
+  email: robb@mail.ru
+  disqus-shortname: robbikmansurov
+  twitter: RobBikmansurov
+  facebook: #username
+  google:
+    plus: 
+    analytics: 
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: robbikmansurov
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #robbikmansurov
+  xing: #username
+  instagram: robbikmansurov
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #baggyshortsman
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+  polar: robbikmansurov
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+#
+
+copyright: © 2017 - 2018
+
+# theme: minima
