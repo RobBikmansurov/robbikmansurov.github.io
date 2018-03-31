@@ -34,7 +34,6 @@ kramdown:
 owner:
   name: Rob Bikmansurov
   avatar: Бикмансуров.png
-  bio: "Mostly writing about software development and cycling."
   bio: "I enjoy playing basketball, I'm CIO in miidle bank, a
  developer, I like open source software and to try something new" 
   
@@ -44,16 +43,17 @@ owner:
   facebook: #username
   google:
     plus: 
-    analytics: 
+    analytics: UA-116685631-1
     verify:
     ad-client:
     ad-slot:
   bing-verify:
   github: robbikmansurov
+  gitlab: robbikmansurov
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #robbikmansurov
   xing: #username
-  instagram: robbikmansurov
+  instagram: #robbikmansurov
   lastfm: #username
   tumblr: #username
   pinterest: #username
