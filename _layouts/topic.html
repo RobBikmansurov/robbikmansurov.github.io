@@ -18,39 +18,17 @@
     {% include _author-bio.html %}
   </div>
 
-
-
-{% if site.tags[page.slug] %}
-<div class="home">
-  <ul class="post-list">
-    {% for post in site.tags[page.slug] %}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <h2>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h2>
-    </li>
-    {% endfor %}
- </ul>
-</div>
-{% endif %}
-
-  <article class="page">
+  <div id="index">
     <h1>{{ page.title }}</h1>
-    <div class="article-wrap">
-      {{ content }}
-      {% if page.share != false %}
-        <hr />
-        {% include _social-share.html %}
-      {% endif %}
-    </div><!-- /.article-wrap -->
-    {% if site.owner.disqus-shortname and page.comments == true %}
-      <section id="disqus_thread"></section><!-- /#disqus_thread -->
-    {% endif %}
-  </article>
-</div><!-- /#index -->
+    {% for tag in site.tags %}
+      {% capture tag_name %}{{ tag | first }}{% endcapture %}
+      <div id="#{{ tag_name | slugize }}"></div>
+      <h4>{{ tag_name }}</h4>
+      {% for post in site.tags[tag_name] %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a> {{ post.date | date: "%b %-d, %Y" }}</li>
+      {% endfor %}
+    {% endfor %}
+  </div><!-- /#index -->
 
 <div class="footer-wrap">
   <footer>

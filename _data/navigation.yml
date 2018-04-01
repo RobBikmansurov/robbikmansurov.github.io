@@ -6,10 +6,7 @@
   url: /feed.xml
 
 - title: Tags
-  url: /tag/
-
-- title: Архив
-  url: /
+  url: /topics/
 
 - title: Categories
   url: /categories

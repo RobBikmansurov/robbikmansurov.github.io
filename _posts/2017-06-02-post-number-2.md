@@ -3,7 +3,7 @@ layout: post
 title:  "Post No2!"
 date:   2017-06-02
 categories: jekyll test rvm
-tag: jekyll test
+tag: jekyll, test
 ---
 
 My site [bp1step][bp1step]
