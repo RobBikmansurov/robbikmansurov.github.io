@@ -40,6 +40,21 @@
         <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
       {% endif %}
     </div><!--/ .headline-wrap -->
+
+    <div class="post-categories">
+      {% if post %}
+        {% assign categories = post.categories %}
+      {% else %}
+        {% assign categories = page.categories %}
+      {% endif %}
+      <ul class="tags">
+        {% for category in categories %}
+        <li><a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="tag">{{category}}</a>
+          {% unless forloop.last %}&nbsp;{% endunless %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
     <div class="article-wrap">
       {{ content }}
       <hr />
@@ -48,6 +63,18 @@
         <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
       </footer>
     </div><!-- /.article-wrap -->
+
+{% if page.tags %}
+<ul class="post-tags">  
+{% for tag in page.tags %}
+  {% assign found_tags = site.topics | where: "slug", tag %}
+  {% for tag in found_tags limit:1 %} 
+  <li><a href="{{ tag.url }}" title="{{ tag.title }}">{{ tag.slug }}</a></li>
+  {% endfor %}
+{% endfor %}
+</ul>
+{% endif %}
+    
   {% if site.owner.disqus-shortname and page.comments == true %}
     <section id="disqus_thread"></section><!-- /#disqus_thread -->
   {% endif %}

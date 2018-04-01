@@ -2,11 +2,14 @@
 - title: Posts
   url: /posts/
 
-- title: Feed
+- title: RSS
   url: /feed.xml
 
 - title: Tags
-  url: /
+  url: /tag/
 
 - title: Архив
   url: /
+
+- title: Categories
+  url: /categories

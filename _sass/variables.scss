@@ -18,7 +18,7 @@ $alt-font: $base-font;
    Colors
    ========================================================================== */
 
-$bodycolor      : #eee;
+$bodycolor      : #fff;
 $body-color     : $bodycolor;
 $textcolor      : #333332;
 $text-color     : $textcolor;
@@ -57,6 +57,9 @@ $link-color       : $linkcolor;
 $linkcolorhover 	: darken($linkcolor, 10);
 $linkcolorvisited : lighten($linkcolorhover, 20);
 $linkcolorfocus 	: darken($linkcolorvisited, 10);
+
+/* tags */
+$tag-bg-color     : #55acee;
 
 /*
    Breakpoints

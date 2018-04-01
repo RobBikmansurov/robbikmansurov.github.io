@@ -10,9 +10,11 @@ url: https://robbikmansurov.github.io
 # url: http://localhost:4000
 
 # Jekill config
-permalink: /:categories/:year/:month/:day/:title.html
+#permalink: /:categories/:year/:month/:day/:title.html
 #permalink: /blog/:year/:month/:day/:title/
 #permalink:   /:categories/:title/
+permalink: /:categories/:title/
+
 markdown: kramdown
 highlighter: rouge
 sass:
@@ -82,6 +84,20 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 #   - vendor/gems/
 #   - vendor/ruby/
 #
+
+# gem jekyll-paginate
+# paginate: 2
+# paginate_path: "/blog/page:num/"
+
+
+collections:
+  topics:
+    output: true
+    permalink: /topics/:name/
+
+
+tag_page_layout: tag_page
+tag_page_dir: tag
 
 copyright: © 2017 - 2018
 

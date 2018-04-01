@@ -1,0 +1,9 @@
+<div class="home">
+  {% for page in site.topics %}
+  {% if page.title and site.tags[page.slug] and page.hidden != true %}
+    <h2>
+    <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+    </h2>
+  {% endif %}
+  {% endfor %}
+</div>
