@@ -12,10 +12,17 @@ categories: rails
 
 Добавим в Gemfile:
 
-````group :development, :test do
+````
+
+group :development, :test do
+
   ...
+
   gem 'rspec-rails', '~> 3.5'
-end````
+
+end
+
+````
 
 Запускаем ``bundle install`` для установки гема
 
