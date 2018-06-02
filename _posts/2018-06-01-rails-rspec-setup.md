@@ -6,12 +6,58 @@ tags:   rails rspec
 categories: rails
 ---
 
-# Настройка среды тестирования Rails/Rspec
+Для развёртывания стандартной среды тестирования обычно нужно выполнить следующие команды и сделать настройки. 
 
-## Rspec
+# Rspec
 
-https://semaphoreci.com/community/tutorials/setting-up-a-bdd-stack-on-a-rails-5-application?utm_source=rubyflow&utm_medium=social&utm_campaign=rails-testing-handbook
+Добавим в Gemfile:
 
+```group :development, :test do
+  ...
+  gem 'rspec-rails', '~> 3.5'
+end```
+
+Запускаем ```bundle install``` для установки гема
+
+Затем ```bundle exec rails generate rspec:install```
+
+#Shoulda-matchers
+
+```group :development, :test do
+  ...
+  gem 'shoulda-matchers', '~> 3.1'
+end```
+
+# FactoryBot
+
+```group :development, :test do
+  ...
+  gem 'factory_bot_rails'
+end```
+
+# database-cleaner
+```group :test do
+  gem 'database_cleaner'
+end```
+
+```# spec/rails_helper.rb
+RSpec.configure do |config|
+
+  config.before(:suite) do
+    DatabaseCleaner.strategy = :transaction
+    DatabaseCleaner.clean_with(:truncation)
+  end
+
+  config.around(:each) do |example|
+    DatabaseCleaner.cleaning do
+      example.run
+    end
+  end
+end
+
+
+# Cucumber
 
 [bp1step]: http://bp1step.ru
+[shoulda-matchers]: https://github.com/thoughtbot/shoulda-matchers
 
