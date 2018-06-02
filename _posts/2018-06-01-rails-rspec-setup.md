@@ -23,26 +23,33 @@ end
 
 Затем ```bundle exec rails generate rspec:install```
 
-##Shoulda-matchers
+## Shoulda-matchers
 
-```group :development, :test do
+```ruby
+group :development, :test do
   ...
   gem 'shoulda-matchers', '~> 3.1'
-end```
+end
+```
 
 ## FactoryBot
 
-```group :development, :test do
+```ruby
+group :development, :test do
   ...
   gem 'factory_bot_rails'
-end```
+end
+```
 
-## database-cleaner
-```group :test do
+## Database Cleaner
+```ruby
+group :test do
   gem 'database_cleaner'
-end```
+end
+```
 
-```# spec/rails_helper.rb
+```ruby
+# spec/rails_helper.rb
 RSpec.configure do |config|
 
   config.before(:suite) do
@@ -56,7 +63,7 @@ RSpec.configure do |config|
     end
   end
 end
-
+```
 
 ## Cucumber
 
