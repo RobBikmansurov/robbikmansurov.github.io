@@ -6,7 +6,7 @@ tags:   rails rspec
 categories: rails
 ---
 
-Для развёртывания стандартной среды тестирования обычно нужно выполнить следующие команды и сделать настройки. 
+Для развёртывания стандартной среды тестирования обычно нужно установить и настроить привычные интсрументы. 
 
 ## Rspec
 
@@ -19,9 +19,9 @@ group :development, :test do
 end
 ````
 
-Запускаем ```bundle install``` для установки гема
+Запускаем `bundle install` для установки гема
 
-Затем ```bundle exec rails generate rspec:install```
+Затем `bundle exec rails generate rspec:install`
 
 ## Shoulda-matchers
 
@@ -42,6 +42,7 @@ end
 ```
 
 ## Database Cleaner
+
 ```ruby
 group :test do
   gem 'database_cleaner'
@@ -66,6 +67,7 @@ end
 ```
 
 ## Cucumber
+
 
 [bp1step]: http://bp1step.ru
 [shoulda-matchers]: https://github.com/thoughtbot/shoulda-matchers
