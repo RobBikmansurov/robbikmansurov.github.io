@@ -6,11 +6,11 @@ tags:   rails rspec
 categories: rails
 ---
 
-Для развёртывания стандартной среды тестирования обычно нужно установить и настроить привычные интсрументы. 
+Для развёртывания стандартной среды тестирования обычно нужно установить и настроить привычные инструменты. Добавляем указанные ниже гемы в `Gemfile`, запускаем `bundle install`, а затем
 
 ## Rspec
 
-Добавим в Gemfile:
+Это основной инструмент unit-тестирования. Добавим в Gemfile:
 
 ```ruby
 group :development, :test do
@@ -19,11 +19,11 @@ group :development, :test do
 end
 ````
 
-Запускаем `bundle install` для установки гема
+Запускаем `bundle install`, а затем `bundle exec rails generate rspec:install`, чтобы установить гем локально и создать структуру каталогов `spec/`. 
 
-Затем `bundle exec rails generate rspec:install`
+## shoulda-mmatchers
 
-## Shoulda-matchers
+Облегчит жизнь тестировщику за счет своих врапперов для валидаций, ассоциаций и редиректов. 
 
 ```ruby
 group :development, :test do
@@ -32,7 +32,23 @@ group :development, :test do
 end
 ```
 
+В `spec/rails_helper.rb` нужно добавить его настройки:
+```ruby
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+
+    with.library :active_record
+    with.library :active_model
+    with.library :action_controller
+    with.library :rails
+  end
+end
+```
+
 ## FactoryBot
+
+Незаменим для наполнения базы данных разнообразными объектами.
 
 ```ruby
 group :development, :test do
@@ -41,7 +57,11 @@ group :development, :test do
 end
 ```
 
+После установки нужно создать свои фейковые модели в `spec/factories/`
+
 ## Database Cleaner
+
+Незаменим для поддержания нашей тестовой базы данных в здоровом состоянии. Имеет развитые средства управления стратегиями очистки.
 
 ```ruby
 group :test do
@@ -71,4 +91,4 @@ end
 
 [bp1step]: http://bp1step.ru
 [shoulda-matchers]: https://github.com/thoughtbot/shoulda-matchers
-
+[factory_bot]: https://github.com/thoughtbot/factory_bot_rails
