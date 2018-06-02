@@ -10,7 +10,8 @@ categories: rails
 
 ## Rspec
 
-Это основной инструмент для unit-тестирования. Добавим в Gemfile:
+[Rspec](https://github.com/rspec/rspec-rails) - основной инструмент для unit-тестирования. 
+А [вот здесь](https://relishapp.com/rspec/rspec-rails/docs) хороший справочник по использованию Rspec в Rails.
 
 ```ruby
 group :development, :test do
@@ -21,9 +22,9 @@ end
 
 Запускаем `bundle install`, а затем `bundle exec rails generate rspec:install`, чтобы установить гем локально и создать структуру каталогов `spec/`. 
 
-## shoulda-matchers
+## Shoulda matchers
 
-Облегчит жизнь тестировщику за счет своих врапперов для валидаций, ассоциаций и редиректов. 
+[Shoulda Matchers](https://github.com/thoughtbot/shoulda-matchers) облегчит и ускорит тестирование за счет своих врапперов для валидаций, ассоциаций и редиректов. 
 
 ```ruby
 group :development, :test do
@@ -61,7 +62,7 @@ end
 
 ## Database Cleaner
 
-Незаменим для поддержания нашей тестовой базы данных в здоровом состоянии. Имеет развитые средства управления стратегиями очистки.
+[Database Cleaner](https://github.com/DatabaseCleaner/database_cleaner) незаменим для поддержания нашей тестовой базы данных в здоровом состоянии. Имеет развитые средства управления стратегиями очистки.
 
 ```ruby
 group :test do
@@ -88,11 +89,13 @@ end
 
 ## rails-controller-testing
 
+[rails-controller-testing](https://github.com/rails/rails-controller-testing) расширяет наши тесты контроллеров. 
+
 `assigns` и `assert_templates`
 
 ## Cucumber
 
-Нужен для приемочных (asseptans) тестов
+[Cucumber Rails](https://github.com/cucumber/cucumber-rails) нужен для приемочных (asseptans) тестов
 
 ```ruby
 group :development, :test do
@@ -102,7 +105,3 @@ end
 ```
 
 `bundle exec rails generate cucumber:install` создаст структуру `spec/features/`
-
-[bp1step]: http://bp1step.ru
-[shoulda-matchers]: https://github.com/thoughtbot/shoulda-matchers
-[rails-controller-testing]: https://github.com/rails/rails-controller-testing
