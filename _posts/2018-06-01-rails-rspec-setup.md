@@ -8,41 +8,36 @@ categories: rails
 
 Для развёртывания стандартной среды тестирования обычно нужно выполнить следующие команды и сделать настройки. 
 
-# Rspec
+## Rspec
 
 Добавим в Gemfile:
 
-````
-
+```ruby
 group :development, :test do
-
   ...
-
   gem 'rspec-rails', '~> 3.5'
-
 end
-
 ````
 
-Запускаем ``bundle install`` для установки гема
+Запускаем ```bundle install``` для установки гема
 
 Затем ```bundle exec rails generate rspec:install```
 
-#Shoulda-matchers
+##Shoulda-matchers
 
 ```group :development, :test do
   ...
   gem 'shoulda-matchers', '~> 3.1'
 end```
 
-# FactoryBot
+## FactoryBot
 
 ```group :development, :test do
   ...
   gem 'factory_bot_rails'
 end```
 
-# database-cleaner
+## database-cleaner
 ```group :test do
   gem 'database_cleaner'
 end```
@@ -63,7 +58,7 @@ RSpec.configure do |config|
 end
 
 
-# Cucumber
+## Cucumber
 
 [bp1step]: http://bp1step.ru
 [shoulda-matchers]: https://github.com/thoughtbot/shoulda-matchers
