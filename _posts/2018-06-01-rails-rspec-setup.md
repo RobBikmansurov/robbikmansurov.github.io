@@ -22,7 +22,7 @@ group :development, :test do
 end
 ````
 
-Запускаем `bundle install`, а затем `bundle exec rails generate rspec:install`, чтобы установить гем локально и создать структуру каталогов `spec/`. 
+Запускаем `bundle install`, а затем `bundle exec rails generate rspec:install`, чтобы создать структуру каталогов `spec/`. 
 
 ## Shoulda matchers
 
@@ -51,7 +51,7 @@ end
 
 ## FactoryBot
 
-[factory_bot](https://github.com/thoughtbot/factory_bot_rails) - отличная вещь для наполнения базы данных разнообразными объектами. Можно использовать как для тестов, так и для создания в базе данных объектов для разработчиков (`db/seeds.rb`).
+[factory_bot](https://github.com/thoughtbot/factory_bot_rails) - отличная вещь для наполнения базы данных разнообразными объектами. Можно использовать как для тестов, так и для начальной инициализации базы данных и заселения её объектами для разработчиков (`db/seeds.rb`).
 
 ```ruby
 group :development, :test do
@@ -91,9 +91,7 @@ end
 
 ## rails-controller-testing
 
-[rails-controller-testing](https://github.com/rails/rails-controller-testing) расширяет наши тесты контроллеров. 
-
-`assigns` и `assert_templates`
+[rails-controller-testing](https://github.com/rails/rails-controller-testing) расширяет наши тесты контроллеров операторами `assigns` и `assert_templates`.
 
 ## Cucumber
 
