@@ -5,7 +5,7 @@ author:      Rob Bikmansurov
 description: Rob Bikmansurov - CIO in the local universal bank, Full Stack web development, specializing in Ruby on Rails. Project manager. Software architect.
 keywords: Ruby on Rails, Ruby, remote developer, performance, business-process optimization
 baseurl:     ""
-url:         https://robbikmansurov.github.io
+url:         "https://robbikmansurov.github.io"
 
 date_format: "%b %-d, %Y"
 structured_date_format: '%Y-%m-%d'
@@ -13,6 +13,8 @@ grammarly_link: https://grammarly.com
 # digital_ocean_link: https://www.digitalocean.com/
 # abot_link: https://abot.app
 # email_subscription_link: https://mailchimp.com/
+email_subscription_link: ''
+
 header_pages:
  - pages/home.html
  - pages/about.md
@@ -26,7 +28,7 @@ google_verification: UA-116685631-1
 google_tag_manager: GTM-5R726R5
 
 # Optional features
-animated:             false
+animated:             true
 show_post_footers:    true
 show_social_icons:    true
 # Preview image for social media aka og:image and twitter:image

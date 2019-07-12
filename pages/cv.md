@@ -51,7 +51,7 @@ I was the main developer of a remote banking system that has been operating sinc
 
 As a head of department of IT I develop IT strategy of our bank, improve the bank`s business processes.
 
-I have created own system for describing business processes and their roles, goals, resources (Ruby on Rails, postgresql), which is used by all our employees. this is an open source project and it is hosted on GitHub - [BP1Step](https://github.com/RobBikmansurov/bp1step).
+I have created own system for describing business processes and their roles, goals, resources (Ruby on Rails, postgresql), which is used by all our employees. This is an open source project and it is hosted on GitHub - [BP1Step](https://github.com/RobBikmansurov/bp1step).
 
 My latest projects as a developer are the api-backend for the personal cabinets of bank customers (Ruby on Rails, Nginx, PostgreSQL, JWT) and a local web application for managing access to the personal cabinets (Ruby on Rails, PostgreSQL, MSSQL, sidekick).
 
