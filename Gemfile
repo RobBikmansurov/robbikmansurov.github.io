@@ -1,12 +1,14 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'jekyll'
-# gem 'octopress', '~> 3.0'
-group :jekyll_plugins do
-  gem "jekyll-feed"
-  gem 'jekyll-sitemap'
-  # gem 'jekyll-paginate'
-  gem 'jekyll-tagging'
-  # gem "github-pages"
-end
+gem "jekyll"
+gem "octopress", '~> 3.0'
+gem "jekyll-assets", '~> 3.0.7'
+gem "uglifier"
+gem "jekyll-paginate"
+gem "jekyll-sitemap"
+gem "sitemap-parser"
+gem "http"
+gem "dotenv"
+
+ruby '2.6.3'
 

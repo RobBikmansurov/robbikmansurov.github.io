@@ -1,98 +1,124 @@
-# robbikmansurov.github.io
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Rob Bikmansurov
-locale: ru_RU
-url: https://robbikmansurov.github.io
-# url: http://localhost:4000
+head_title: Rob Bikmansurov | CIO, Ruby on Rails Developer
+email:       robb@mail.ru
+author:      Rob Bikmansurov
+description: Rob Bikmansurov - CIO in the local universal bank, Full Stack web development, specializing in Ruby on Rails. Project manager. Software architect.
+keywords: Ruby on Rails, Ruby, remote developer, performance, business-process optimization
+baseurl:     ""
+url:         "" # https://pawelurbanek.com"
+date_format: "%b %-d, %Y"
+structured_date_format: '%Y-%m-%d'
+grammarly_link: https://grammarly.com
+# digital_ocean_link: https://www.digitalocean.com/
+# abot_link: https://abot.app
+# email_subscription_link: https://mailchimp.com/
+header_pages:
+ - pages/home.html
+ - pages/about.md
+ - pages/piggy-bank.md
+ - pages/cv.md
 
-# Jekill config
-#permalink: /:categories/:year/:month/:day/:title.html
-#permalink: /blog/:year/:month/:day/:title/
-permalink: /:topics/:title/
-permalink: /:categories/:title/
+# Google services
+google_verification: UA-116685631-1
+# Use either direct GA implementation or set up GTM account
+# - using both will skew your data (leave blank to not use at all)
+google_tag_manager: GTM-5R726R5
 
-markdown: kramdown
-highlighter: rouge
+# Optional features
+animated:             false
+show_post_footers:    true
+show_social_icons:    true
+# Preview image for social media aka og:image and twitter:image
+post_preview_image: false
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname: robbikmansurov
+
+# Social icons
+github_username: robbikmansurov
+twitter_username: /robbikmansurov
+linkedin_username: robbikmansurov
+medium_id:
+flattr_button:
+github: robbikmansurov
+gitlab: robbikmansurov
+
+# Post sharing icons
+show_sharing_icons: true
+# Change to 'true' to enable individual icons
+share_twitter: true
+share_facebook: true
+
+text:
+  pagination:
+    newer: 'here'
+    older: 'there'
+  share_buttons:
+    text:         'Share:'
+    twitter:      'Share on Twitter'
+    facebook:     'Share on Facebook'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+  index:
+    coming_soon: 'Coming soon...'
+  contact:
+    email:    ''
+    content:  ''
+    subject:  'New submission!'
+    submit:   'Send'
+    ajax:
+      sending:  'sending..'
+      sent:     'Message sent!'
+      error:    'Error!'
+  og_locale: 'en_US'
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink: /:title
+paginate:     7
 sass:
-  sass_dir: _sass
   style: compressed
 plugins:
+  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-feed
+  - jekyll-assets
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - deploy.sh
+  - certificates.tar
+  - app-nginx.conf.sigil
+  - purge.rb
+  - CHECKS
+  - app.json
+  - .env
 
-kramdown:
-  input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-
-owner:
-  name: Rob Bikmansurov
-  avatar: Бикмансуров.png
-  bio: "I enjoy playing basketball and running, I'm a CIO in an average universal bank, I'm software developer (RubyOnRails, Python, VB). I like to create information systems and programs and try something new"
-  
-  email: robb@mail.ru
-  disqus-shortname: robbikmansurov
-  twitter: RobBikmansurov
-  facebook: #username
-  google:
-    plus: 
-    analytics: UA-116685631-1
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: robbikmansurov
-  gitlab: robbikmansurov
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #robbikmansurov
-  xing: #username
-  instagram: #robbikmansurov
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #baggyshortsman
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  codepen: #username
-  polar: robbikmansurov
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
-
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-#
-
-# gem jekyll-paginate
-# paginate: 2
-# paginate_path: "/blog/page:num/"
-
-
-collections:
-  topics:
-    output: true
-    permalink: /topics/:name/
-
-tag_page_layout: tag_page
-tag_page_dir: tag
+defaults:
+  - scope:
+      path: 'files/*.pdf'
+    values:
+      sitemap: false
+  - scope:
+      path: 'build/'
+    values:
+      sitemap: false
+assets:
+  defaults:
+    js: { integrity: false }
+    css: { integrity: false }
+    img: { integrity: false }
+  digest: true
+  sources:
+    - _assets/css
+    - _assets/css/scss
+    - _assets/images/shared
+    - _assets/images/2018-01-08
+    - _assets/images/2018-01-15
+    - _assets/images/2018-01-22
+    - _assets/images/2018-02-23
