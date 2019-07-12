@@ -108,14 +108,6 @@ layout: default
 
 <article class="post-content">
 
-  {% if page.thumb_image %}
-    <div class='main-image-placeholder'>
-      {% asset {{ page.thumb_image }} class="center-image js-async-img" title="{{ page.main_image_description }}" alt="{{ page.main_image_description }}" data-src="{{ site.url }}{{ assets[page.preview_image].digest_path }}" %}
-    </div>
-  {% else %}
-    <p>Missing main image</p>
-  {% endif %}
-
 <div class="mobile-top page-navigation">
   {% if page.previous.url %}
     <a class="prev navigation-link" href="{{page.previous.url}}">&laquo; {{page.previous.title }}</a>
