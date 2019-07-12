@@ -110,10 +110,10 @@ layout: default
 
   {% if page.thumb_image %}
     <div class='main-image-placeholder'>
-      {% asset "{{ page.thumb_image }}" class="center-image js-async-img" title="{{ page.main_image_description }}" alt="{{ page.main_image_description }}" data-src="{{ site.url }}{{ assets[page.preview_image].digest_path }}" %}
+      {% asset {{ page.thumb_image }} class="center-image js-async-img" title="{{ page.main_image_description }}" alt="{{ page.main_image_description }}" data-src="{{ site.url }}{{ assets[page.preview_image].digest_path }}" %}
     </div>
   {% else %}
-    <h2>Missing main image</h2>
+    <p>Missing main image</p>
   {% endif %}
 
 <div class="mobile-top page-navigation">
