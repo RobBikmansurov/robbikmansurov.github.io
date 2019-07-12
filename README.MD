@@ -1,8 +1,13 @@
-## Readme
+# Rob Bikmansurov. Personal blog 
 
-Full length readme is included as a blog post.
+Testing and learning.
 
-To build the template run the following commands (requires Ruby 2.5.1 installed):
+[![pipeline status](https://gitlab.com/RobBikmansurov/robbikmansurov.github.io.jekyll/badges/master/pipeline.svg)](https://gitlab.com/RobBikmansurov/bp1step.jekyll/commits/master)
+
+
+This awesome template sent me from https://pawelurbanek.com/jekyll-seo-template
+
+To build the template run the following commands (requires Ruby 2.6.3 installed):
 
 
 ```
