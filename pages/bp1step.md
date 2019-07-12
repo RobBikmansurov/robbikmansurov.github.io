@@ -1,7 +1,7 @@
 ---
 layout: page
 title: BP1Step
-permalink: /bp1step
+permalink: /bp1step/
 preview_image: robbikmansurov.jpg
 head_title: Rob Bikmansurov | CIO, ruby developer - About
 ---

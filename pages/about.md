@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about
+permalink: /about/
 preview_image: robbikmansurov.jpg
 head_title: Rob Bikmansurov | CIO, ruby developer - About
 last_modified_at: 2018-02-09T20:10:10+01:00

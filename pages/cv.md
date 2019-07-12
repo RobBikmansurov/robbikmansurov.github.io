@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CV
-permalink: /cv
+permalink: /cv/
 preview_image: robbikmansurov.jpg
 keywords: SEO, optmization, traffic, visitors, blog, blog post, accelerated mobile pages, blog, blogger, jekyll, Medium, blogging, template
 meta_description: jekyll SEO template is the best alternative to blogging on Medium. It has been highly optimized for SEO and could seriously increase the organic traffic to your blog.

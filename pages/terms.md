@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Terms and Privacy Policy
-permalink: /terms
+permalink: /terms/
 preview_image: robbikmansurov.jpg
 head_title: Rob Bikmansurov | CIO, ruby developer - Terms
 last_modified_at: 2018-02-09T20:10:10+01:00

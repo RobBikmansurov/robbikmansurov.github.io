@@ -16,7 +16,8 @@ preview_image: robbikmansurov.jpg
   {% for post in paginator.posts %}
       {% assign index=index | plus:1 %}
       var index = {{ index }}
-      var postUrl = "{{ post.url }}"
+      var postUrl = "{{ post.url }}.html"
+      console.log(postUrl)
       urls.push(postUrl)
   {% endfor %}
 
@@ -24,6 +25,7 @@ preview_image: robbikmansurov.jpg
   preloaded.push(urls[1])
 
   var preload = function(url) {
+    console.log(url);
     if(url === undefined) {
       return;
     }
@@ -53,8 +55,11 @@ preview_image: robbikmansurov.jpg
     <div class="posts">
       {% for post in paginator.posts %}
         <div class="post py3">
-          <p class="post-meta"><span class='theme-color'>{{ post.date | date: site.date_format }} &nbsp;</span><span class="disqus-comment-count" data-disqus-identifier="{{ post.id }}"></span></p>
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h2 class="h1 post-title">{{ post.title }}</h2></a>
+          <p class="post-meta">
+            <span class='theme-color'>{{ post.date | date: site.date_format }} &nbsp;</span>
+            <span class="disqus-comment-count" data-disqus-identifier="{{ post.id }}"></span>
+          </p>
+          <a href="{{ post.id }}.html" class="post-link"><h2 class="h1 post-title">{{ post.title }}</h2></a>
           <span class="post-summary">
             {% if post.summary %}
               {{ post.summary }}
@@ -73,4 +78,4 @@ preview_image: robbikmansurov.jpg
   {% endif %}
 </div>
 
-<script id="dsq-count-scr" src="//{{ site.disqus_shortname }}.disqus.com/count.js" async></script>
+<-- <script id="dsq-count-scr" src="//{{ site.disqus_shortname }}.disqus.com/count.js" async></script> -->

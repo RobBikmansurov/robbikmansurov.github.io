@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PiggyBank
-permalink: /piggy-bank
+permalink: /piggy-bank/
 preview_image: robbikmansurov.jpg
 head_title: Rob Bikmansurov | Piggy Bank
 last_modified_at: 2019-07-11
