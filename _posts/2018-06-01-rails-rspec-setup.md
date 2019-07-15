@@ -1,19 +1,20 @@
 ---
 layout: post
-title:  Настройка среды тестирования Rails/Rspec
+title:  Настройка среды тестирования Rails/RSpec
 date:   2018-06-01 13:28:44 +0500
 tags:   rails rspec
 categories: rails
+keywords: rspec, ruby on rails, tests
 ---
 
 Для развёртывания стандартной среды тестирования обычно нужно установить и настроить привычные инструменты.
 
 Добавляем указанные ниже гемы в `Gemfile`, запускаем `bundle install`, чтобы установить эти библиотеки локально. 
 
-## Rspec
+## RSpec
 
-[Rspec](https://github.com/rspec/rspec-rails) - основной инструмент для unit-тестирования. 
-А [вот здесь](https://relishapp.com/rspec/rspec-rails/docs) хороший справочник по использованию Rspec в Rails.
+[RSpec](https://github.com/rspec/rspec-rails) - основной инструмент для unit-тестирования. 
+А [вот здесь](https://relishapp.com/rspec/rspec-rails/docs) хороший справочник по использованию RSpec в Rails.
 
 ```ruby
 group :development, :test do

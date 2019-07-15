@@ -3,8 +3,8 @@ layout: default
 title: CV
 permalink: /cv/
 preview_image: robbikmansurov.jpg
-keywords: SEO, optmization, traffic, visitors, blog, blog post, accelerated mobile pages, blog, blogger, jekyll, Medium, blogging, template
-meta_description: jekyll SEO template is the best alternative to blogging on Medium. It has been highly optimized for SEO and could seriously increase the organic traffic to your blog.
+keywords: Rob Bikmansurov, bikmansurov, cv, job of dream, remote job
+meta_description: Rob Bikmansurov looking remote job
 ---
 
 <header class="post-header">
@@ -29,7 +29,7 @@ Despite the position of the CIO, I always write programms and improve my level a
 
 I have reached the limit in the current organization and I want to reload my career. I want to progress, mastering the most modern technologies.
 
-Now I'm looking for remote work (but relocation is also possible) in a cool team in a complex project with advanced processes to the position of senior backend developer Ruby.
+Now I'm looking for a remote job (but relocation is also possible) in a cool team in a complex project with advanced processes to the position of senior backend developer Ruby.
 
 ### Technical Skills
 

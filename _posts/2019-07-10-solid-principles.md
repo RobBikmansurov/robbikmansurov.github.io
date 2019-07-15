@@ -3,6 +3,7 @@ layout: post
 title:  Принципы проектирования SOLID
 tags:   solid
 categories: oop solid
+keywords: oop, solid, solid principle
 ---
 
 Главная цель этих принципов — повысить гибкость архитектуры, уменьшить связанность между её компонентами и облегчить повторное использование кода.
