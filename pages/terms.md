@@ -5,6 +5,8 @@ permalink: /terms/
 preview_image: robbikmansurov.jpg
 head_title: Rob Bikmansurov | CIO, ruby developer - Terms
 last_modified_at: 2018-02-09T20:10:10+01:00
+keywords: Rob Bikmansurov, bikmansurov, cv, job of dream, remote job
+meta_description: Rob Bikmansurov looking remote job
 ---
 
 Website uses cookies. NGINX access logs are stored for up to 1 year for maintenance purposes and traffic analysis.

@@ -33,7 +33,7 @@ Now I'm looking for a remote job (but relocation is also possible) in a cool tea
 
 ### Technical Skills
 
-  * Languages: Ruby, Rspec, HAML, JavaScript, Visual Basic, SQL, Python, PHP, bash
+  * Languages: Ruby, RSpec, HAML, JavaScript, Visual Basic, SQL, Python, PHP, bash
   * Technologies: Ruby on Rails, git, Gitlab CI/CD, Docker
   * Databases: PostgreSQL
   * Platforms: Linux, Windows

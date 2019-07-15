@@ -5,6 +5,8 @@ permalink: /about/
 preview_image: robbikmansurov.jpg
 head_title: Rob Bikmansurov | CIO, ruby developer - About
 last_modified_at: 2018-02-09T20:10:10+01:00
+keywords: Rob Bikmansurov, bikmansurov, cv, job of dream, remote job
+meta_description: Rob Bikmansurov looking remote job
 ---
 
   <img alt="Rob Bikmansurov cio, teamlead, ruby developer" src="{{ site.url }}{{ assets['robbikmansurov.jpg'].digest_path }}" srcset="{{ site.url }}{{ assets['robbikmansurov.jpg'].digest_path }} 1x, {{ site.url }}{{ assets['robbikmansurov.jpg'].digest_path }} 2x" class='about-photo'>
