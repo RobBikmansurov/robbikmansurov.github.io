@@ -1,7 +1,6 @@
-<div class="page-navigation">
+<div class="post-meta small">
   {% if page.previous.url %}
     <a class="prev navigation-link" href="{{page.previous.url}}">&laquo; {{page.previous.title }}</a>
-
   {% else %}
     <a class="prev" ></a>
   {% endif %}
@@ -10,13 +9,4 @@
   {% endif %}
 </div>
 
-<div class="post-footer twitter-icon">
-  <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="nofollow">
-    <img alt="Twitter link"
-    src="{{ site.url }}{{ assets['twitter.png'].digest_path }}"
-    srcset="{{ site.url }}{{ assets['twitter.png'].digest_path }} 1x, {{ site.url }}{{ assets['twitter@2x.png'].digest_path }} 2x"
-    >
-  </a>
-</div>
-
-<a class='link' href="#top">Back to top</a>
+<a class='link' style='color: orange' href="#top">Back to top</a>
