@@ -18,7 +18,7 @@ meta_description: Rob Bikmansurov looking remote job
 [robb@mail.ru](mailto: robb@mail.ru)
 <br>[+7 919 49 49 874](tel: +79194949874)
 <br>[GitHub profiles](https://github.com/RobBikmansurov)
-<br>[cv.pdf](/BikmansurovRM.pdf)
+<br>Get my [CV.pdf](/BikmansurovRM.pdf)
 
 <br>
 
