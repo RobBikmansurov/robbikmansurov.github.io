@@ -13,7 +13,7 @@ meta_description: Rob Bikmansurov looking remote job
 </header>
 
 
-{% asset robbikmansurov.jpg class="about-photo" alt="Rob Bikmansurov, CIO, ruby developer" !width !height %}
+<img src="/images/robbikmansurov.jpg" alt="Rob Bikmansurov, CIO, ruby developer" class="about-photo" style="width: 150px;"/>
 
 [robb@mail.ru](mailto: robb@mail.ru)
 <br>[+7 919 49 49 874](tel: +79194949874)

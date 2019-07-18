@@ -9,7 +9,7 @@ keywords: Rob Bikmansurov, bikmansurov, cv, job of dream, remote job
 meta_description: Rob Bikmansurov looking remote job
 ---
 
-  <img alt="Rob Bikmansurov cio, teamlead, ruby developer" src="{{ site.url }}{{ assets['robbikmansurov.jpg'].digest_path }}" srcset="{{ site.url }}{{ assets['robbikmansurov.jpg'].digest_path }} 1x, {{ site.url }}{{ assets['robbikmansurov.jpg'].digest_path }} 2x" class='about-photo'>
+<img src="/images/robbikmansurov.jpg" alt="Rob Bikmansurov, CIO, ruby developer" class="about-photo" style="width: 100px;"/>
 
 I enjoy playing basketball and running, I'm a CIO in an average universal bank, I'm software developer (RubyOnRails, VB, Python). I like to create information systems and programs and try something new.
 
