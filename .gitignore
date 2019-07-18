@@ -10,4 +10,5 @@ build/
 .asset-cache
 .jekyll-cache
 .env
-
+.bundle/
+*.sublime-*

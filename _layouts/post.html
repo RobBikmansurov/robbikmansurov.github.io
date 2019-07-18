@@ -80,14 +80,14 @@ layout: default
 <div class="fixed-bottom-navigation left-side pagination">
   {% if page.previous.url %}
     <div class='hidden-title'> {{ page.previous.title }} </div>
-    <a class="left navigation-item" href="{{page.previous.url}}">&laquo; Prev</a>
+    <a class="left navigation-item" href="{{page.previous.url}}.html">&laquo; Prev</a>
   {% endif %}
 </div>
 
 <div class="fixed-bottom-navigation right-side pagination">
   {% if page.next.url %}
     <div class='hidden-title'> {{ page.next.title }} </div>
-    <a class="right navigation-item" href="{{page.next.url}}"> Next &raquo;</a>
+    <a class="right navigation-item" href="{{page.next.url}}.html"> Next &raquo;</a>
   {% endif %}
 </div>
 
@@ -109,13 +109,13 @@ layout: default
 <article class="post-content">
   <div class="mobile-top page-navigation">
     {% if page.previous.url %}
-      <a class="prev navigation-link" href="{{page.previous.url}}">&laquo; {{page.previous.title }}</a>
+      <a class="prev navigation-link" href="{{page.previous.url}}.html">&laquo; {{page.previous.title }}</a>
     {% else %}
       <a class="prev" ></a>
     {% endif %}
 
     {% if page.next.url %}
-      <a class="right next navigation-link" href="{{page.next.url}}"> {{page.next.title }} &raquo;</a>
+      <a class="right next navigation-link" href="{{page.next.utl}}.html"> {{page.next.title }} &raquo;</a>
     {% endif %}
   </div>
   <br>

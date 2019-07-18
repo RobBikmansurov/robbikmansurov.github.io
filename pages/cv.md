@@ -17,7 +17,7 @@ meta_description: Rob Bikmansurov looking remote job
 
 [robb@mail.ru](mailto: robb@mail.ru)
 <br>[+7 919 49 49 874](tel: +79194949874)
-<br>[GitHub profiles](https://github.com/RobBikmansurov)
+<br>[GitHub profile](https://github.com/RobBikmansurov)
 <br>Get my [CV.pdf](/BikmansurovRM.pdf)
 
 <br>
@@ -61,7 +61,7 @@ My latest projects as a developer are the API-backend for the personal cabinets 
 
 ### Education
 
-Perm National Research Polytechnic University, 1985
+Perm National Research Polytechnic University, 1980-1985
 
 Faculty of Electrical Engineering, Automated control systems
 
