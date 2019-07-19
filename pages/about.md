@@ -23,9 +23,14 @@ Now I'm looking for remote work (but relocation is also possible) in a cool team
 
 ### API-backend for personal cabinets of our clients on bank`s site
 
+<img src="/images/cabinet-questions.png" alt="Rweb-application for manage customers in the personal cabinets" class="about-photo" style="width: 500px;"/>
+
 API-backend for the personal cabinets of bank customers [Ruby on Rails, Nginx, PostgreSQL, JWT], react-frontend is developing by other team.
+Internal web-application for manage customers in the personal cabinets.
 
 ### [BP1Step](/bp1step) - Business Processes First Step
+
+<img src="/images/bp1step-to-execution.png" alt="BP1Step lists task, letters to execution" class="about-photo" style="width: 150px;"/>
 
 My first Ruby On Rails project is used by our organization [Ruby on Rails, PostgreSQL, GitlabCI/CD].
 

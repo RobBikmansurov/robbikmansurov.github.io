@@ -6,8 +6,9 @@ preview_image: robbikmansurov.jpg
 head_title: Rob Bikmansurov | CIO, ruby developer - About
 ---
 
-## BP1Step поможет Вам внедрить процессный подход и навести порядок в Вашем бизнесе!
+<img src="/images/bp1step-to-execution.png" alt="BP1Step lists task, letters to execution" class="about-photo" style="width: 250px;"/>
 
+## Поможет внедрить процессный подход и навести порядок в Вашем бизнесе!
 
 * BP1Step — первый шаг для малого и среднего предприятия на пути внедрения процессного подхода и повышения уровня зрелости организации
 
@@ -37,7 +38,7 @@ head_title: Rob Bikmansurov | CIO, ruby developer - About
 
 ### Администратор, ит-специалист
 
-Несложно развернуть BP1Step. Это Ruby on Rails web-приложение устанавливается на сервер. Вы можете использовать любую БД, которую поддерживает Rails. Подробная инструкция по установке приведена в разделе Getting Started
+Несложно развернуть BP1Step. Это Ruby on Rails web-приложение устанавливается на сервер. Вы можете использовать любую БД, которую поддерживает Rails. Подробная инструкция по установке приведена в разделе Getting Started.
 
 
 
