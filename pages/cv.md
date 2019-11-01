@@ -18,7 +18,7 @@ meta_description: Rob Bikmansurov looking remote job
 [robb@mail.ru](mailto: robb@mail.ru)
 <br>[+7 919 49 49 874](tel: +79194949874)
 <br>[GitHub profile](https://github.com/RobBikmansurov)
-<br>Get my [CV.pdf](/BikmansurovRM.pdf)
+<br>Look my [CV.pdf](/BikmansurovRM.pdf)
 
 <br>
 
@@ -26,7 +26,7 @@ meta_description: Rob Bikmansurov looking remote job
 
 Results-oriented software developer with wide experience in system development, I’m the team lead and the system architect, I have been solving business problems through information technology for many years. 
 
-Despite the position of the CIO, I always wrote and write programs and improve my level as a developer. I’m constantly striving to learn new technologies and look to ways to better myself in this rapidly changing industry.
+Despite the position of the CIO, I always wrote and write programs and improve my level as a developer. I’m constantly striving to learn new technologies and look to ways to master my skills in this rapidly changing industry.
 
 I have reached the limit in the current organization and I want to reload my career. I want to progress, mastering the most modern technologies.
 
