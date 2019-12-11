@@ -19,3 +19,9 @@ jekyll serve --watch
 You should see the blog on `http://localhost:4000`
 
 If something goes wrong you should consult jekyll documentation on https://jekyllrb.com/ .
+
+##Hosting
+Reminder! I have hostings at:
+
+https://cp-hosting.jino.ru/ for domain bikmansurov.ru
+https://my.radiushost.ru/billmgr?sfrom=loginform for domain bp1step.ru
