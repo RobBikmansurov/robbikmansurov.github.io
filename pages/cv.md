@@ -45,7 +45,7 @@ Now I'm looking for remote work (but relocation is also possible) in a cool team
 
 * Dates: 1993 – present
 
-As a team leader, system architect, and developer, I have created and been managing an IT system for an average local bank since 1993. It was based on Foxpro / DOS.
+As a team leader, system architect, and developer, I have created and been managing an IT system at a universal bank since 1993. It was based on Foxpro / DOS.
 After the growth of the bank’s business, we have rewritten this system in MS SQL, *.Net, Visual Basic, WinForms.
 
 I was the main developer of a remote banking system that has been operating since 2000 and serving up to 1,000 clients per day.

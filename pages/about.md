@@ -11,7 +11,7 @@ meta_description: Rob Bikmansurov looking remote job
 
 <img src="/images/robbikmansurov.jpg" alt="Rob Bikmansurov, CIO, Ruby developer" class="about-photo" style="width: 100px;"/>
 
-I enjoy playing basketball and running. I'm the CIO of an average universal bank. I'm a software developer (RubyOnRails, VB, Python). I like creating information systems and programs and trying new things.
+I'm an IT Director at a universal bank. I'm a software developer (RubyOnRails, VB, Python). I like creating information systems and programs and trying new things. I enjoy playing basketball and running.
 
 I have reached the limit in my current organization, and I want to change my career path. I want to progress, mastering the most modern technologies.
 Now, I'm looking for remote work (but relocation is also possible) in a cool team. I'd like to work on complex projects with advanced processes as a senior backend Ruby developer.
